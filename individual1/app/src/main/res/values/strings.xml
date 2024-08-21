@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Individual1</string>
+    <string name="user">Hardcodea tu nombre</string>
+    <string name="input_user">Ingrese name</string>
+    <string name="btn_summit">Hardcodea</string>
+    <string name="hello">Saludos hardcoder</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rojo_error">#FF0000</color>
+    <color name="Amarillo_warning">#FFFF00</color>
+    <color name="gris_antiguo">#A9A9A9</color>
+    <color name="azul_desarrollo">#0000FF</color>
+    <color name="verde_comfirmacion">#00FF00</color>
+    <color name="naranja_compromiso">#FFA500</color>
+    <color name="morado_comentarios">#800080</color>
+    <color name="blanco_espacio">#FFFFFF</color>
+    <color name="negro_fondo">#000000</color>
+</resources>

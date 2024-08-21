@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back_btn_color">#e0e0e0</color>
+    <color name="txt_btn_color">#ff7043</color>
+    <color name="bck_bkc_text">#212121</color>
+    <color name="text_color">#ffffff</color>
+</resources>

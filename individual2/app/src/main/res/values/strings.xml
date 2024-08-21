@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Individual 2</string>
+    <string name="user">Nombre Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo Eléctronico</string>
+    <string name="loggin">Ingresar a Hardcodeapp</string>
+</resources>

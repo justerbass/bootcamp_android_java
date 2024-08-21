@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Indvidual7" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    
+    <style name="estilo1">
+        <item name="android:backgroundTint">@color/btn_color_1</item>
+        <item name="backgroundColor">@color/background_color_1</item>
+        <item name="android:textColor">@color/text_view_color_1</item>
+    </style>
+
+    <style name="estilo2">
+        <item name="backgroundTint">@color/btn_color_2</item>
+        <item name="backgroundColor">@color/background_color_2</item>
+        <item name="android:textColor">@color/text_view_color_2</item>
+    </style>
+
+
+    <style name="Theme.Indvidual7" parent="Base.Theme.Indvidual7" />
+</resources>

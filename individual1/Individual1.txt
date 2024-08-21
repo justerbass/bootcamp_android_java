@@ -1,0 +1,156 @@
+// MAIN.XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrnd_img_2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_app"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:src="@drawable/logo_hardcodeapp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/show_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_name"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/azul_desarrollo"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_loggin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/btn_summit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/negro_fondo"
+        android:textColor="@color/Amarillo_warning"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline2"
+        android:text="@string/user"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo_error"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_name"
+        android:textColorHint="@color/rojo_error"
+        android:hint="@string/input_user"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo_error"
+
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="315dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+//STRING
+
+<resources>
+    <string name="app_name">Individual1</string>
+    <string name="user">Hardcodea tu nombre</string>
+    <string name="input_user">Ingrese name</string>
+    <string name="btn_summit">Hardcodea</string>
+    <string name="hello">Saludos hardcoder</string>
+</resources>
+
+//COLOR
+
+<resources>
+    <color name="rojo_error">#FF0000</color>
+    <color name="Amarillo_warning">#FFFF00</color>
+    <color name="gris_antiguo">#A9A9A9</color>
+    <color name="azul_desarrollo">#0000FF</color>
+    <color name="verde_comfirmacion">#00FF00</color>
+    <color name="naranja_compromiso">#FFA500</color>
+    <color name="morado_comentarios">#800080</color>
+    <color name="blanco_espacio">#FFFFFF</color>
+    <color name="negro_fondo">#000000</color>
+</resources>
+
+//MAINACTIVITY 
+
+package cl.bootcamp.individual1;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+import com.google.android.material.textfield.TextInputEditText;
+
+public class MainActivity extends AppCompatActivity {
+
+    private EditText input_user;
+    private TextView show_user;
+    private Button btn_name;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_main);
+
+        input_user = (EditText) findViewById(R.id.input_name);
+        show_user = (TextView) findViewById(R.id.show_name);
+        btn_name = (Button) findViewById(R.id.btn_loggin);
+
+            btn_name.setOnClickListener(
+                    new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            show_user.setText("Bienvenido " + input_user.getText().toString() + " a HardcodeApp");
+            }
+        });
+
+    }
+}

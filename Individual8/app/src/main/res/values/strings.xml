@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Individual8</string>
+    <string name="go_to_2">Ir a Segunda Pantalla</string>
+    <string name="exit">Salir</string>
+    <string name="go_to_1">Ir a Primera Pantalla</string>
+    <string name="go_to_timber">Log con Timber</string>
+</resources>

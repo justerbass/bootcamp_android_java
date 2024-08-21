@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Individual6</string>
+    <string name="hint_name">Ingrese Nombre</string>
+    <string name="hint_lastname">Ingrese Apellido</string>
+    <string name="hint_email">Ingrese Email</string>
+    <string name="hint_password">Ingrese Contraseña</string>
+    <string name="login_btn">Ingresar</string>
+    <string name="error_name">Falta Ingresar Nombre</string>
+    <string name="error_lastname">Falta Ingresar Apellido</string>
+    <string name="error_email">Falta Ingresar Email</string>
+    <string name="error_password">Falta Ingresar Contraseña</string>
+</resources>

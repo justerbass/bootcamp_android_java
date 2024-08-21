@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Individual9</string>
+    <string name="Img_1">Planeta Alien</string>
+    <string name="Img_2">Tienda de café</string>
+    <string name="Img_3">Fotografia</string>
+    <string name="Img_4">Ciudad futurista</string>
+    <string name="back_btn">volver</string>
+    <string name="exit">Salir</string>
+</resources>

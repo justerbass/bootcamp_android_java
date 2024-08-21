@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Individual3</string>
+    <string name="firs_number">Primer numero</string>
+    <string name="second_number">Segundo numero</string>
+    <string name="hint_number">Ingrese Numero</string>
+    <string name="result">Resultado</string>
+</resources>
