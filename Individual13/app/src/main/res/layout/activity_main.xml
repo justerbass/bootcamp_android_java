@@ -60,7 +60,7 @@
         />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
+        android:id="@+id/fragmentContainerView_quest"
         android:name="cl.bootcamp.individual13.Pregunta"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -69,6 +69,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/app_name"/>
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView_good"
+        android:name="cl.bootcamp.individual13.RespuestaPositiva"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_name"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView_bad"
+        android:name="cl.bootcamp.individual13.RespuestaNegativa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_name"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
