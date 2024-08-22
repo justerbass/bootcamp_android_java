@@ -8,14 +8,12 @@
     tools:context=".MainActivity"
     >
 
-
-
     <Button
         android:id="@+id/button_show_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fragment"
-        app:layout_constraintBottom_toTopOf="@+id/button_exit"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,14 +26,14 @@
         android:text="@string/exit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_show_fragment"
+        app:layout_constraintTop_toBottomOf="@id/fragmentContainerView"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="cl.bootcamp.indicidual11.BlankFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

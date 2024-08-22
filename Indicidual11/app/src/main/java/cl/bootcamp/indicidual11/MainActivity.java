@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button exit_btn;
     private Button fragment_btn;
-    Fragment fragment;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,18 +26,13 @@ public class MainActivity extends AppCompatActivity {
         exit_btn = findViewById(R.id.button_exit);
         fragment_btn = findViewById(R.id.button_show_fragment);
 
-        fragment = new Fragment();
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.fragmentContainerView, fragment)
-                .commit();
-
         exit_btn.setOnClickListener(view -> finishAffinity());
 
         fragment_btn.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-
+                Fragment fragment = new BlankFragment();
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragmentContainerView, fragment)
                         .commit();
