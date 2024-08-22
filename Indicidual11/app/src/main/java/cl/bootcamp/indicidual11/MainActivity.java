@@ -10,11 +10,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import cl.bootcamp.indicidual11.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button exit_btn;
-    private Button fragment_btn;
+    private ActivityMainBinding binding;
 
 
     @Override
@@ -23,26 +26,25 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        exit_btn = findViewById(R.id.button_exit);
-        fragment_btn = findViewById(R.id.button_show_fragment);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        exit_btn.setOnClickListener(view -> finishAffinity());
+        binding.buttonExit.setOnClickListener(view -> finishAffinity());
 
-        fragment_btn.setOnClickListener(new View.OnClickListener() {
+        binding.buttonShowFragment.setOnClickListener(view -> showFragment(new BlankFragment()));
+    }
 
-            @Override
-            public void onClick(View view) {
-                Fragment fragment = new BlankFragment();
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragmentContainerView, fragment)
-                        .commit();
-            }
+    private void showFragment(Fragment fragment){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragmentContainerView, fragment);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
 
-
-        });
-
-
-
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        binding = null;
     }
 }
