@@ -8,8 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import cl.bootcamp.indicidual11.databinding.FragmentBlankBinding;
+
 
 public class BlankFragment extends Fragment {
+
+    private FragmentBlankBinding binding;
 
     public BlankFragment() {
         // Required empty public constructor
@@ -25,7 +29,19 @@ public class BlankFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false);
+        binding = FragmentBlankBinding.inflate(inflater, container, false);
+        View view = binding.getRoot();
+
+        binding.radioGroup.setOnCheckedChangeListener((group, checkedId) -> {
+            if (checkedId == R.id.radio_button_yes) {
+                binding.fragmentHeader.setText(R.string.yes_respond);
+            } else if (checkedId == R.id.radio_button_no) {
+                binding.fragmentHeader.setText(R.string.no_respond);
+            }
+                
+            } 
+            );
+
+        return view;
     }
 }

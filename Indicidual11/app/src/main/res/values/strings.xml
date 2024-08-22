@@ -3,10 +3,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="exit">Salir</string>
-    <string name="fragment">Fragment</string>
+    <string name="fragment">Mostrar Fragment</string>
     <string name="question_one">¿Conoces este meme?</string>
     <string name="yes_message">¡Si lo conozco!</string>
     <string name="no_message">No....Buuuuu....</string>
+    <string name="yes_respond">Genial</string>
+    <string name="no_respond">te presento este meme</string>
     
 
 
