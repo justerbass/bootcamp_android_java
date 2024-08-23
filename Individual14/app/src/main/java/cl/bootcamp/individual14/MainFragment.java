@@ -10,17 +10,18 @@ import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
-import cl.bootcamp.individual14.databinding.FragmentRespuestaNegativaBinding;
+import cl.bootcamp.individual14.databinding.FragmentMainBinding;
 
 
-public class RespuestaNegativa extends Fragment {
+public class MainFragment extends Fragment {
 
-    FragmentRespuestaNegativaBinding binding;
-    public RespuestaNegativa() {
+    FragmentMainBinding binding;
+
+    public MainFragment() {
         // Required empty public constructor
     }
-
 
 
     @Override
@@ -33,7 +34,7 @@ public class RespuestaNegativa extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        binding = FragmentRespuestaNegativaBinding.inflate(inflater, container, false);
+        binding = FragmentMainBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -42,17 +43,18 @@ public class RespuestaNegativa extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        if (getArguments() != null) {
-            String name = getArguments().getString("name_player");
-            String respond = getString(R.string.bad_answer) + " " + name;
-            binding.textWrongAnswer.setText(respond);
-        };
-
-        binding.tryAgainButton.setOnClickListener(new View.OnClickListener() {
+        binding.floatingPlayButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).popBackStack();
+                if (binding.editNamePlayer.getText().toString().isEmpty()){
+                    Toast.makeText(getContext(), "Ingrese su nombre", Toast.LENGTH_SHORT).show();
+                }else{
+                    Bundle bundle = new Bundle();
+                    bundle.putString("name_player", binding.editNamePlayer.getText().toString());
+                    Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_pregunta, bundle);
+                };
             }
+
         });
     }
 }
