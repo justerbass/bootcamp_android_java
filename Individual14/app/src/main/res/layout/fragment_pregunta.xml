@@ -5,10 +5,99 @@
     android:layout_height="match_parent"
     tools:context=".Pregunta">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/hello_player"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/triangulo"
+            android:id="@+id/triangulo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quest1"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_gruop_options1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion1_quest1"
+                android:id="@+id/opcion1"
+                android:textColor="@color/white"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion2_quest1"
+                android:id="@+id/opcion2"
+                android:textColor="@color/white"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion3_quest1"
+                android:id="@+id/opcion3"
+                android:textColor="@color/white"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion4_quest1"
+                android:id="@+id/opcion4"
+                android:textColor="@color/white"
+                >
+            </RadioButton>
+
+        </RadioGroup>
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_anwer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_gravity="bottom|center_horizontal"
+
+        />
 
 </FrameLayout>
