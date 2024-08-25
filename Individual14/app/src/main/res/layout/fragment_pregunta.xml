@@ -6,6 +6,7 @@
     tools:context=".Pregunta">
 
     <TextView
+        android:id="@+id/welcome_player"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_player"
@@ -44,6 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+
+            android:layout_weight="1"
             >
 
             <RadioButton
@@ -52,6 +55,7 @@
                 android:text="@string/opcion1_quest1"
                 android:id="@+id/opcion1"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 >
             </RadioButton>
 
@@ -61,6 +65,7 @@
                 android:text="@string/opcion2_quest1"
                 android:id="@+id/opcion2"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 >
             </RadioButton>
 
@@ -70,6 +75,7 @@
                 android:text="@string/opcion3_quest1"
                 android:id="@+id/opcion3"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 >
             </RadioButton>
 
@@ -79,6 +85,7 @@
                 android:text="@string/opcion4_quest1"
                 android:id="@+id/opcion4"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 >
             </RadioButton>
 
@@ -86,18 +93,22 @@
 
 
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
 
     </LinearLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton_anwer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:focusable="true"
-        android:src="@android:drawable/ic_media_play"
-        android:layout_gravity="bottom|center_horizontal"
-
-        />
 
 </FrameLayout>
