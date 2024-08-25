@@ -1,0 +1,46 @@
+cl.bootcamp.individual14.app-emoji2-1.3.0-0 C:\Users\USUARIO\.gradle\caches\transforms-4\0ee0fdc8faf385d20c44c16cd6e8ea66\transformed\emoji2-1.3.0\res
+cl.bootcamp.individual14.app-emoji2-views-helper-1.3.0-1 C:\Users\USUARIO\.gradle\caches\transforms-4\1bc53a3e3808db8b7af7951e424234ed\transformed\emoji2-views-helper-1.3.0\res
+cl.bootcamp.individual14.app-constraintlayout-2.1.4-2 C:\Users\USUARIO\.gradle\caches\transforms-4\1e330f3d80765e609275c36271016278\transformed\constraintlayout-2.1.4\res
+cl.bootcamp.individual14.app-fragment-1.6.2-3 C:\Users\USUARIO\.gradle\caches\transforms-4\20879b7d4dc33614bbdd2ee3d8c3a861\transformed\fragment-1.6.2\res
+cl.bootcamp.individual14.app-lifecycle-process-2.6.2-4 C:\Users\USUARIO\.gradle\caches\transforms-4\21f4c684256562f6686cbbdbac6006f6\transformed\lifecycle-process-2.6.2\res
+cl.bootcamp.individual14.app-transition-1.5.0-5 C:\Users\USUARIO\.gradle\caches\transforms-4\2a61747a7f35b49affdad319453de9fa\transformed\transition-1.5.0\res
+cl.bootcamp.individual14.app-lifecycle-viewmodel-ktx-2.6.2-6 C:\Users\USUARIO\.gradle\caches\transforms-4\32e949b2d295152abe1938424aa30e1a\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+cl.bootcamp.individual14.app-navigation-ui-2.7.7-7 C:\Users\USUARIO\.gradle\caches\transforms-4\34c98eb96c59365a64d0cd8e7eea2a37\transformed\navigation-ui-2.7.7\res
+cl.bootcamp.individual14.app-profileinstaller-1.3.1-8 C:\Users\USUARIO\.gradle\caches\transforms-4\408fba3acc123acf129d41d743c0ba12\transformed\profileinstaller-1.3.1\res
+cl.bootcamp.individual14.app-window-1.0.0-9 C:\Users\USUARIO\.gradle\caches\transforms-4\41384eafc00dff07564a22a3f62367ff\transformed\window-1.0.0\res
+cl.bootcamp.individual14.app-lifecycle-livedata-core-ktx-2.6.2-10 C:\Users\USUARIO\.gradle\caches\transforms-4\42249ee318e0e5a3b200b6d3bd25c950\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+cl.bootcamp.individual14.app-lifecycle-livedata-2.6.2-11 C:\Users\USUARIO\.gradle\caches\transforms-4\42edb5d23e1531f2c29d8c4883345720\transformed\lifecycle-livedata-2.6.2\res
+cl.bootcamp.individual14.app-coordinatorlayout-1.1.0-12 C:\Users\USUARIO\.gradle\caches\transforms-4\49d776f3a084e4bd677d8ac5dc1a95fc\transformed\coordinatorlayout-1.1.0\res
+cl.bootcamp.individual14.app-navigation-common-2.7.7-13 C:\Users\USUARIO\.gradle\caches\transforms-4\522ce351a1fe758bea52afdb76bd87cb\transformed\navigation-common-2.7.7\res
+cl.bootcamp.individual14.app-fragment-ktx-1.6.2-14 C:\Users\USUARIO\.gradle\caches\transforms-4\5cbc504ffd25671c9f86899fa8477c6a\transformed\fragment-ktx-1.6.2\res
+cl.bootcamp.individual14.app-appcompat-resources-1.7.0-15 C:\Users\USUARIO\.gradle\caches\transforms-4\6039236162eefedc58fabd076700036c\transformed\appcompat-resources-1.7.0\res
+cl.bootcamp.individual14.app-appcompat-1.7.0-16 C:\Users\USUARIO\.gradle\caches\transforms-4\6720cb782abb9c2d2fe741f39d0dd284\transformed\appcompat-1.7.0\res
+cl.bootcamp.individual14.app-lifecycle-runtime-2.6.2-17 C:\Users\USUARIO\.gradle\caches\transforms-4\6aea7c408051898e43190a398b6a5fb4\transformed\lifecycle-runtime-2.6.2\res
+cl.bootcamp.individual14.app-navigation-runtime-2.7.7-18 C:\Users\USUARIO\.gradle\caches\transforms-4\75bb7f838c0ed52e31289dc5408d8739\transformed\navigation-runtime-2.7.7\res
+cl.bootcamp.individual14.app-core-ktx-1.13.0-19 C:\Users\USUARIO\.gradle\caches\transforms-4\78904296300824d93b17546a439ce69d\transformed\core-ktx-1.13.0\res
+cl.bootcamp.individual14.app-recyclerview-1.1.0-20 C:\Users\USUARIO\.gradle\caches\transforms-4\815cf6981ced95d836519a78e0c28473\transformed\recyclerview-1.1.0\res
+cl.bootcamp.individual14.app-startup-runtime-1.1.1-21 C:\Users\USUARIO\.gradle\caches\transforms-4\87f6188a4840cbd143a4b4919f11835b\transformed\startup-runtime-1.1.1\res
+cl.bootcamp.individual14.app-navigation-fragment-2.7.7-22 C:\Users\USUARIO\.gradle\caches\transforms-4\90977993b81933f773eaf66826ecccd2\transformed\navigation-fragment-2.7.7\res
+cl.bootcamp.individual14.app-activity-ktx-1.9.1-23 C:\Users\USUARIO\.gradle\caches\transforms-4\944ef7a8c4da7f8859694658dee3a6ce\transformed\activity-ktx-1.9.1\res
+cl.bootcamp.individual14.app-lifecycle-runtime-ktx-2.6.2-24 C:\Users\USUARIO\.gradle\caches\transforms-4\98fb32bf2988b1b7cf97f4a8cfa53940\transformed\lifecycle-runtime-ktx-2.6.2\res
+cl.bootcamp.individual14.app-material-1.12.0-25 C:\Users\USUARIO\.gradle\caches\transforms-4\9dee86f1c13397560aef59ec40b27240\transformed\material-1.12.0\res
+cl.bootcamp.individual14.app-savedstate-ktx-1.2.1-26 C:\Users\USUARIO\.gradle\caches\transforms-4\a0cd8df23e86d98132f0c938a2311244\transformed\savedstate-ktx-1.2.1\res
+cl.bootcamp.individual14.app-lifecycle-livedata-core-2.6.2-27 C:\Users\USUARIO\.gradle\caches\transforms-4\aaa54e565dd66ec6bd0610f94f265c71\transformed\lifecycle-livedata-core-2.6.2\res
+cl.bootcamp.individual14.app-annotation-experimental-1.4.0-28 C:\Users\USUARIO\.gradle\caches\transforms-4\b3a06c54e0f3246d88fa128da53ecb3b\transformed\annotation-experimental-1.4.0\res
+cl.bootcamp.individual14.app-core-1.13.0-29 C:\Users\USUARIO\.gradle\caches\transforms-4\b5058c203584d2f7156289bcd4a0a03a\transformed\core-1.13.0\res
+cl.bootcamp.individual14.app-slidingpanelayout-1.2.0-30 C:\Users\USUARIO\.gradle\caches\transforms-4\b9d6ab88b87e3ecd65a19a6b7b23defd\transformed\slidingpanelayout-1.2.0\res
+cl.bootcamp.individual14.app-drawerlayout-1.1.1-31 C:\Users\USUARIO\.gradle\caches\transforms-4\c064a65385c8d64b504ffb5373f8c997\transformed\drawerlayout-1.1.1\res
+cl.bootcamp.individual14.app-activity-1.9.1-32 C:\Users\USUARIO\.gradle\caches\transforms-4\c39015f0b76e64661733b57404ecdab5\transformed\activity-1.9.1\res
+cl.bootcamp.individual14.app-savedstate-1.2.1-33 C:\Users\USUARIO\.gradle\caches\transforms-4\c8bfae332557ec4f0fb4b2c669e8504f\transformed\savedstate-1.2.1\res
+cl.bootcamp.individual14.app-cardview-1.0.0-34 C:\Users\USUARIO\.gradle\caches\transforms-4\d38c6ee77ea961b75ea68fa5c4a3d253\transformed\cardview-1.0.0\res
+cl.bootcamp.individual14.app-lifecycle-viewmodel-savedstate-2.6.2-35 C:\Users\USUARIO\.gradle\caches\transforms-4\d48b9756744ae0f98cd0a8ee6069dbe9\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+cl.bootcamp.individual14.app-viewpager2-1.0.0-36 C:\Users\USUARIO\.gradle\caches\transforms-4\dd9e3d665595b5c2654e6e4365d1932e\transformed\viewpager2-1.0.0\res
+cl.bootcamp.individual14.app-lifecycle-viewmodel-2.6.2-37 C:\Users\USUARIO\.gradle\caches\transforms-4\decb51d666774001fbf6b598d520158d\transformed\lifecycle-viewmodel-2.6.2\res
+cl.bootcamp.individual14.app-core-runtime-2.2.0-38 C:\Users\USUARIO\.gradle\caches\transforms-4\df56452bd7d0d2441fa431c0b3061025\transformed\core-runtime-2.2.0\res
+cl.bootcamp.individual14.app-pngs-39 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\build\generated\res\pngs\debug
+cl.bootcamp.individual14.app-resValues-40 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\build\generated\res\resValues\debug
+cl.bootcamp.individual14.app-packageDebugResources-41 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+cl.bootcamp.individual14.app-packageDebugResources-42 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+cl.bootcamp.individual14.app-debug-43 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\build\intermediates\merged_res\debug\mergeDebugResources
+cl.bootcamp.individual14.app-debug-44 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\src\debug\res
+cl.bootcamp.individual14.app-main-45 D:\programacion\aprendizaje\bootcamp android\tareas individuales\modulo 4\Individual14\app\src\main\res
