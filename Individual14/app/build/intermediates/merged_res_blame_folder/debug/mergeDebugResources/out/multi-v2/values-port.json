@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "cl.bootcamp.individual14.app-mergeDebugResources-41:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-4\\6720cb782abb9c2d2fe741f39d0dd284\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

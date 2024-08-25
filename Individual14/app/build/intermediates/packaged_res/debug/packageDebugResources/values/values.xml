@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back">#2F4714</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Trivia Trivial</string>
+    <string name="bad_answer">Respuesta incorrecta</string>
+    <string name="finish">Finalizar</string>
+    <string name="good_answer">Respuesta correcta</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_player">Bienvenido</string>
+    <string name="input_name_hint">Ingrese su nombre de participante</string>
+    <string name="opcion1_quest1">1 triagulo</string>
+    <string name="opcion2_quest1">5 triangulos</string>
+    <string name="opcion3_quest1">8 triangulos</string>
+    <string name="opcion4_quest1">4 triangulos</string>
+    <string name="quest1">¿cuantos triangulos ves?</string>
+    <string name="reload">Volver a intentar</string>
+    <style name="Base.Theme.Individual14" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/white</item>
+    </style>
+    <style name="Theme.Individual14" parent="Base.Theme.Individual14"/>
+</resources>

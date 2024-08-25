@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "cl.bootcamp.individual14.app-mergeDebugResources-41:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-4\\9dee86f1c13397560aef59ec40b27240\\transformed\\material-1.12.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}
