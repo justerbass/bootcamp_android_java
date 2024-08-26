@@ -5,5 +5,6 @@
     <string name="carrer">Programador Android</string>
     <string name="hobbies">Dispuesto a realizar yu app soñada</string>
     <string name="title">Perfil Android</string>
+    <string name="email">Ingrese su correo y contactare con usted</string>
 
 </resources>
