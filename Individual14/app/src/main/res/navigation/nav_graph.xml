@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="cl.bootcamp.individual14.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_pregunta"
+            app:destination="@id/pregunta" />
+    </fragment>
+    <fragment
+        android:id="@+id/pregunta"
+        android:name="cl.bootcamp.individual14.Pregunta"
+        android:label="fragment_pregunta"
+        tools:layout="@layout/fragment_pregunta" >
+        <action
+            android:id="@+id/action_pregunta_to_respuestaPositiva"
+            app:destination="@id/respuestaPositiva" />
+        <action
+            android:id="@+id/action_pregunta_to_respuestaNegativa"
+            app:destination="@id/respuestaNegativa" />
+    </fragment>
+    <fragment
+        android:id="@+id/respuestaPositiva"
+        android:name="cl.bootcamp.individual14.RespuestaPositiva"
+        android:label="fragment_respuesta_positiva"
+        tools:layout="@layout/fragment_respuesta_positiva" />
+    <fragment
+        android:id="@+id/respuestaNegativa"
+        android:name="cl.bootcamp.individual14.RespuestaNegativa"
+        android:label="fragment_respuesta_negativa"
+        tools:layout="@layout/fragment_respuesta_negativa" >
+        <action
+            android:id="@+id/action_respuestaNegativa_to_pregunta"
+            app:destination="@id/pregunta" />
+    </fragment>
+</navigation>

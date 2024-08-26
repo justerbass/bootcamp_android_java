@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SpintFinal</string>
+    <string name="contact_me">Contactame</string>
+    <string name="name">Javier Castillo</string>
+    <string name="carrer">Programador Android</string>
+    <string name="hobbies">Dispuesto a realizar yu app soñada</string>
+    <string name="title">Perfil Android</string>
+    <string name="email">Ingrese su correo y me contactare con usted</string>
+    <string name="linkedi">https://www.linkedin.com/in/javier-castillo-284840264/</string>
+    <string name="whatsapp">https://wa.me/56971040272</string>
+    <string name="subject">hay un interaso en tus servicios</string>
+    <string name="email_send">j.e.castillo.bravo@gmail.com</string>
+    <string name="email_empty">Ingrese un correo</string>
+
+</resources>
