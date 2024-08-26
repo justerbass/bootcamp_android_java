@@ -5,5 +5,16 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="sprint_final_text">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="background">@color/background_color</item>
+
+    </style>
+
+    <style name="Spint_Final_button">
+        <item name="android:backgroundTint">@color/button_color</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
     <style name="Theme.SpintFinal" parent="Base.Theme.SpintFinal" />
 </resources>

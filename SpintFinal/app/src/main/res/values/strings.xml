@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SpintFinal</string>
+    <string name="contact_me">Contactame</string>
+    <string name="name">Javier Castillo</string>
+    <string name="carrer">Programador Android</string>
+    <string name="hobbies">Dispuesto a realizar yu app soñada</string>
+    <string name="title">Perfil Android</string>
+
 </resources>

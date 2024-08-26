@@ -6,11 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/background_color"
-    >
+    android:background="@color/background_color">
 
-    <TextView
-        android:layout_marginTop="50dp"
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/title"
@@ -21,21 +19,20 @@
         android:theme="@style/sprint_final_text"
         android:textSize="50sp"
         android:id="@+id/header_title"
-        />
+            />
 
 
-    <ImageView
+        <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/junior"
-        app:layout_constraintTop_toBottomOf="@id/header_title"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginVertical="20dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+            />
 
-    <TextView
+        <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,11 +41,11 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/header_title"
         android:layout_marginTop="50dp"
-        />
+            />
 
-    <TextView
+        <TextView
         android:id="@+id/textView_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,9 +56,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
         android:layout_marginTop="50dp"
-        />
+            />
 
-    <TextView
+        <TextView
         android:id="@+id/textView_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,9 +69,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView_2"
         android:layout_marginTop="50dp"
-        />
+            />
 
-    <Button
+
+
+        <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -82,11 +81,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="25dp"
         android:theme="@style/Spint_Final_button"
-        />
-
+            />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
